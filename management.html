@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <title>ゆたゆた公式サイト</title>
     <link rel="shortcut icon" href="./images/yutayuta.ico">
-    <link rel="stylesheet" href="./css/home.css">
+    <link rel="stylesheet" href="./css/terms.css">
     </head>
 <body>
     <!-- header -->
@@ -15,14 +15,14 @@
     </h1>
     <img src="./images/yutayuta.png" class="logo" width="120" height="120">
     <ul class="nav-list">
-      <li class="langCng nav-list-item" lang="ja"><a href="index.html"><strong class="this">ホーム</strong></a></li>
-      <li class="langCng nav-list-item" lang="en"><a href="index.html"><strong class="this">Home</strong></a></li>
+      <li class="langCng nav-list-item" lang="ja"><a href="index.html">ホーム</a></li>
+      <li class="langCng nav-list-item" lang="en"><a href="index.html">Home</a></li>
       <li class="langCng nav-list-item" lang="ja"><a href="terms.html">利用規約</a></li>
       <li class="langCng nav-list-item" lang="en"><a href="terms.html">Terms</a></li>
       <li class="langCng nav-list-item" lang="ja"><a href="topic.html">トピック</a></li>
       <li class="langCng nav-list-item" lang="en"><a href="topic.html">Topic</a></li>
-      <li class="langCng nav-list-item" lang="ja"><a href="management.html">運営者用</a></li> 
-      <li class="langCng nav-list-item" lang="en"><a href="management.html">For Management</a></li>
+      <li class="langCng nav-list-item" lang="ja"><a href="management.html"><strong class="this">運営者用</strong></a></li> 
+      <li class="langCng nav-list-item" lang="en"><a href="management.html"><strong class="this">For Management</strong></a></li>
     </ul>
     <div id="sample1">
         <input type="radio" name="langKbn" id="sJa" onClick="langSet('ja')" checked>
@@ -48,21 +48,9 @@
     <div id="topScroll" class="langCng topIcon" onclick="goTop()" lang="en">Back to Top</div>
     <div id="target">
     <div>        
-          <h2 class="langCng title" lang="ja">もっとシンプルに、もっと使いやすく</h2>
-          <h2 class="langCng title" lang="en">Simpler and more user-friendly</h2>
+          <h2 class="langCng title" lang="ja">運営者用</h2>
+          <h2 class="langCng title" lang="en">For Management</h2>
           <hr class="title-line">
-          <div class="image"><img src="images/image1-en.png"></div>
-          <p class="langCng main" lang="ja"><strong>&raquo; DiscordのBot、ゆたゆた</strong><br>このBotは、いろいろな機能を搭載し、使いやすいようにしています。<br>サーバー管理からグローバルチャット、お楽しみコマンドまで様々。<br><strong>ぜひ導入して楽しいDiscordライフを送ってみてはいかが？</strong></p>
-          <p class="langCng main" lang="en">&raquo; Yutayuta of Discord BOT<br>This bot is equipped with a variety of features to make it easy to use.<br>It varies from server management to global chat to fun commands.<br><strong>Why don't you install it and have a fun Discord life?</strong></p>
-          <div class="image2"><img src="images/image2.png" width="300px" height="380px"></div>
-          <p class="langCng main2" lang="ja"><strong>&raquo; 機能紹介</strong><br>・サーバー管理<br>・便利コマンド<br>・お楽しみコマンド<br>・APIを使用したコマンド<br>・グローバルコマンド<br>・音楽コマンド<br>...など</p>
-          <p class="langCng main2" lang="en"><strong>&raquo; Functions</strong><br>・ServerManage<br>・Useful commands<br>・Fun commands<br>・Commands using the API<br>・Global commands<br>・Music commands<br>...etc</p>
-          <p class="langCng main3-title" lang="ja">― 主なコマンドの紹介 ―</p>
-          <p class="langCng main3-title" lang="en">― Introduction of main commands ―</p>
-          <p class="langCng main3-body" lang="ja">デフォルトのプレフィックス(接頭辞)は <strong>y!</strong> です。<br>&#10731; の記号が記載コマンドまたは記載されている箇所を実行するには権限が必要です。<br>&lt;&gt;で囲まれている所は必須項目。　[]で囲まれている所は必須ではない項目。<br><br><strong>y!help</strong>...ゆたゆたのヘルプを表示します。<br><strong>y!lang</strong>...現在のサーバー内でのゆたゆたの言語を表示します。<br>&#10731; <strong>y!setlang &lt;言語&gt;</strong>...サーバー内でのゆたゆたの言語を設定します。<br><strong>y!prefix [新しいプレフィックス(接頭辞)]</strong>...現在のサーバー内の接頭辞を表示または &#10731;サーバー内の接頭辞を設定&#10731; します。<br>&#10731; <strong>y!command &lt;enable または disable&gt; &lt;コマンドの名前&gt;</strong>...そのコマンドをサーバー内で有効化(enable)または無効化(disable)します。<br>&#10731; <strong>y!requiredrole &lt;コマンドの名前&gt; &lt;none または ロール&gt;</strong>...サーバー内でそのコマンドを実行するために必要なロールを設定します。<br>&#10731; <strong>y!news</strong>...コマンドを入力したチャンネルでゆたゆたのお知らせを受け取ります。</p>
-          <p class="langCng main3-body" lang="en">The default prefix is <strong>y!</strong><br>Permission is required to execute commands marked with the &#10731; symbol.<br>&lt;&gt; are required fields. [] are not required fields.<br><br><strong>y!help</strong>...View Yutayuta's help.<br><strong>y!lang</strong>...Displays the language of the current Yutayuta in the server.<br><strong>y!setlang &lt;Language&gt;</strong>...Sets the language of Yutayuta in the server.<br><strong>y!prefix [New Prefix]</strong>...Displays the prefix in the current server or &#10731; Sets the prefix in the server &#10731;.<br>&#10731; <strong>y!command &lt;enable or disable&gt; &lt;Command Name&gt;</strong>...Enable or disable that command in the server.<br>&#10731; <strong>y!requiredrole &lt;Command Name&gt; &lt;none or Role&gt;</strong>...Set the role required to run that command in the server.<br>&#10731; <strong>y!news</strong>...Receive notifications from YutaYuta on the channel where you entered the command.</p>
-          <p class="langCng subtitle" lang="ja"><strong>現在、絶賛60サーバー以上に導入されています！</strong><br></p>
-          <p class="langCng subtitle" lang="en"><strong>It's currently installed on over 60 servers to rave reviews!</strong></p>
         </div>
       </div>
       <div id="loading">

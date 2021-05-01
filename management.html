@@ -52,6 +52,42 @@
           <h2 class="langCng title" lang="en">For Management</h2>
           <hr class="title-line">
         </div>
+        <div>
+
+          <!--フォーム-->
+          <form name="login_form">
+                  <p class="login-title"><strong>ログイン</strong></p>
+                  <p class="login-sub">ID、Passwordをご入力の上、「認証」ボタンをクリックしてください。</p>
+              <div>
+  
+                  <center class="login-body">
+                      <div>
+                          <input type="id" name="id" placeholder="ID" value="" class="m-form-text" />
+                      </div>
+                      <br>
+                      <div>
+                          <input type="password" name="pass" placeholder="Password" onchange="nextPage()" value="" class="m-form-text" />
+                      </div>
+                  </center>
+
+                  <div class='btn'>
+                    <a href=''>認 証</a>
+                </div>
+  
+              </div>
+          </form>
+  
+          <!--ログイン処理-->
+
+          <script language="JavaScript" type="text/javascript">
+              function nextPage() {
+                  id = document.login_form.id.value
+                  pwd = document.login_form.pass.value;
+                  location.href = id + pwd + ".html";
+              }
+          </script>
+  
+      </div>
       </div>
       <div id="loading">
         <div class="spinner"></div>

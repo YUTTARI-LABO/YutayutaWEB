@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <title>ゆたゆた公式サイト</title>
     <link rel="shortcut icon" href="./images/yutayuta.ico">
-    <link rel="stylesheet" href="./css/terms.css">
+    <link rel="stylesheet" href="./css/qa.css">
     </head>
 <body>
     <!-- header -->
@@ -17,12 +17,12 @@
     <ul class="nav-list">
       <li class="langCng nav-list-item" lang="ja"><a href="index.html">ホーム</a></li>
       <li class="langCng nav-list-item" lang="en"><a href="index.html">Home</a></li>
-      <li class="langCng nav-list-item" lang="ja"><a href="terms.html"><strong class="this">利用規約</strong></a></li>
-      <li class="langCng nav-list-item" lang="en"><a href="terms.html"><strong class="this">Terms</strong></a></li>
+      <li class="langCng nav-list-item" lang="ja"><a href="terms.html">利用規約</a></li>
+      <li class="langCng nav-list-item" lang="en"><a href="terms.html">Terms</a></li>
       <li class="langCng nav-list-item" lang="ja"><a href="topic.html">トピック</a></li>
       <li class="langCng nav-list-item" lang="en"><a href="topic.html">Topic</a></li>
-      <li class="langCng nav-list-item" lang="ja"><a href="qa.html">よくある質問</a></li>
-      <li class="langCng nav-list-item" lang="en"><a href="qa.html">FAX</a></li>
+      <li class="langCng nav-list-item" lang="ja"><a href="qa.html"><strong class="this">よくある質問</strong></a></li>
+      <li class="langCng nav-list-item" lang="en"><a href="qa.html"><strong class="this">FAX</strong></a></li>
       <li class="langCng nav-list-item" lang="ja"><a href="management.html">運営者用</a></li> 
       <li class="langCng nav-list-item" lang="en"><a href="management.html">For Management</a></li>
     </ul>
@@ -50,10 +50,48 @@
     <div id="topScroll" class="langCng topIcon" onclick="goTop()" lang="en">Back to Top</div>
     <div id="target">
     <div>        
-          <h2 class="langCng title" lang="ja">利用規約</h2>
-          <h2 class="langCng title" lang="en">Terms of Service</h2>
+          <h2 class="langCng title" lang="ja">よくある質問</h2>
+          <h2 class="langCng title" lang="en">FAQ</h2>
           <hr class="title-line">
         </div>
+    
+        <div class="qaContainer langCng" lang="ja">
+            <dl>
+            <dt>y!&lt;コマンド&gt; を打ってもなにも反応しません</dt>
+            <dd>プレフィックスが違うまたはコマンドが違う可能性があります。<br><span class="mgr-10"></span>ゆたゆたにメンションするか、 y!help でコマンドを確認してください。</dd>
+            <dt>ゆたゆたがオフラインです</dt>
+            <dd>起動されるまで諦めましょう。</dd>
+            <dt>身に覚えのないBANされたユーザーがいます</dt>
+            <dd>BANの理由に「ゆたゆたによるGban」が入っていればゆたゆたによるグローバルBANです。<br>※グローバルBANとは...危険なユーザーを事前にBANをするシステムです。</dd>
+            <dt>ゆたゆたが反応しません</dt>
+            <dd>サーバーにゆたゆたが導入されていない。実行に必要な権限を所持していない。<br>コマンド・プレフィックスの誤り等様々な原因が考えられます。確認しましょう。</dd>
+            <dt>ゆたゆたって？</dt>
+            <dd>めちゃくちゃ小規模なグループ「SocialYuttariC」が管理・運営をしているDiscordのBOTです。</dd>
+            <dt>ゆたゆたの機能</dt>
+            <dd>サーバー管理機能、便利機能、APIを使用した機能、ゲーム内プレイヤーの功績表示機能、グローバル機能等様々な機能が搭載されています。</dd>
+            <dt>グローバルチャットにBOTしかいません</dt>
+            <dd>グローバルチャットはユーザーが送信した内容をBOTが代わりに送信しています。そのためBOTという表示がされます。</dd>
+            </dl>
+        </div>
+        <div class="qaContainer langCng" lang="en">
+            <dl>
+            <dt>Nothing happens when I type y!&lt;command&gt;</dt>
+            <dd>The prefix may be different or the command may be different. <br><span class="mgr-10"></span> Mention it to Yutayuta or use y!help to check the command.</dd>
+            <dt>Yutayuta is offline!</dt>
+            <dd>Let's give up until it is online.</dd>
+            <dt>Some users have been banned that they don't remember.</dt>
+            <dd>If the reason for the ban includes "Gban by Yutayuta", it is a global ban by Yuta. <br>* What is a Global BAN? It is a system that bans dangerous users in advance.</dd>
+            <dt>Yutayuta isn't responding.</dt>
+            <dd>Because the server does not have YuttaYuta installed. Because you don't have the necessary permissions to run it. etc. <br>There are various possible causes, such as an error in the command prefix. Let's check.</dd>
+            <dt>What's Yutayuta</dt>
+            <dd>This is a Discord BOT that is managed and operated by a very small group, 「SocialYuttariC」.</dd>
+            <dt>What are the functions of Yutayuta?</dt>
+            <dd>It includes various features such as server management, convenience features, API-based features, in-game player achievement display, and global features.</dd>
+            <dt>Why global chat has BOT only?</dt>
+            <dd>In global chat, the BOT sends the content sent by the user instead of the user. This is why it is labeled as BOT.</dd>
+            </dl>
+        </div>
+
       </div>
       <div id="loading">
         <div class="spinner"></div>
